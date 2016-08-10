@@ -1,4 +1,12 @@
 GIT
+  remote: https://github.com/Orange-OpenSource/machete.git
+  revision: 2897a370e93397b824223135ea0e3b2ad4651ec6
+  tag: v0.0.44
+  specs:
+    machete (0.0.44)
+      httparty
+
+GIT
   remote: https://github.com/cloudfoundry/buildpack-packager
   revision: 38c17059b0f41036b697c024b99c94bfb3bd2059
   tag: v2.3.3
@@ -7,15 +15,6 @@ GIT
       activesupport (~> 4.1.8)
       kwalify
       terminal-table (~> 1.4.5)
-
-GIT
-  remote: https://github.com/cloudfoundry/machete.git
-  revision: d01507e2094bae8b84894e0b38b14048360c01b1
-  tag: v0.0.45
-  specs:
-    machete (0.0.45)
-      childprocess
-      httparty
 
 GEM
   remote: https://rubygems.org/
@@ -26,11 +25,8 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
-    childprocess (0.5.9)
-      ffi (~> 1.0, >= 1.0.11)
     diff-lcs (1.2.5)
     excon (0.51.0)
-    ffi (1.9.14)
     httparty (0.14.0)
       multi_xml (>= 0.5.2)
     i18n (0.7.0)
